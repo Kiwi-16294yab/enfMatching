@@ -10,6 +10,8 @@ samples_audio2=mean(samples_audio,2);
 d_rate=round(Fs_audio/fs_audio);
 samples_audio2_decimated=decimate(samples_audio2,d_rate);
 
+
+
 f_i = 0;
 for f_ENF=frequencies
     f_i = f_i+1;
