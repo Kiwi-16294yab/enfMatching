@@ -11,3 +11,6 @@
 [5] G. Hua, H. Liao, H. Zhang, D. Ye, and J. Ma “Robust ENF estimation based on harmonic enhancement and maximum weight clique”, IEEE Transactions on Information Forensics and Security, vol. 16, pp. 3874–3887, 2021.
 
 [6] A. Berk Yalinkilic and S. Vatansever, "An Enhanced STFT Segmentation Framework for ENF-Based Media Forensics," in IEEE Access, vol. 12, pp. 117850-117862, 2024, doi: 10.1109/ACCESS.2024.3449099.
+
+[7] A. Berk Yalinkilic and S. Vatansever, “The Effect of Short-Time Fourier Transform Parameters Choice on ENF-based Forensic Analysis of Audio”, Müh.Bil.ve Araş.Dergisi, c. 5, sy 1, ss. 79–87, Nis. 2023, doi: 10.46387/bjesr.1246180.
+
