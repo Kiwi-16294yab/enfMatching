@@ -14,3 +14,4 @@
 
 [7] A. Berk Yalinkilic and S. Vatansever, “The Effect of Short-Time Fourier Transform Parameters Choice on ENF-based Forensic Analysis of Audio”, Müh.Bil.ve Araş.Dergisi, c. 5, sy 1, ss. 79–87, Nis. 2023, doi: 10.46387/bjesr.1246180.
 
+https://github.com/ghua-ac/ENF-WHU-Dataset/tree/master/ENF-WHU-Dataset
