@@ -6,48 +6,85 @@
   The studies investigate how ENF traces embedded in audio recordings can be exploited for digital media forensics and how Short-Time Fourier Transform (STFT)-based ENF estimation performance can be improved through parameter optimization and enhanced segmentation strategies.
 
   The repository accompanies the following publications:
+  
     1. The Effect of Short-Time Fourier Transform Parameters Choice on ENF-based Forensic Analysis of Audio
+    
     2. An Enhanced STFT Segmentation Framework for ENF-Based Media Forensics
 
   Overview
+  
 Electric Network Frequency (ENF) is the instantaneous frequency fluctuation of mains electricity around its nominal value (50 Hz or 60 Hz), caused by continuous imbalances between electricity generation and consumption. These fluctuations unintentionally become embedded into audio and video recordings through electromagnetic interference, acoustic hum, or mains-powered illumination.
+
 Because ENF variations are temporally correlated across an interconnected power grid, ENF signals extracted from media recordings can be compared against ground-truth ENF reference databases to estimate or verify the recording time of a media file. This makes ENF a powerful tool for:
+
 Time-of-recording verification
+
 Media authentication and integrity analysis
+
 Tampering detection
+
 Multimedia synchronization
+
 Geolocation estimation
+
 Digital media forensics research
+
+
 Research Contributions
 
 This repository includes implementations of the methodologies proposed in our studies, including:
+
 Conventional STFT-based ENF estimation
+
 Analysis of STFT window and hop size selection
+
 Adaptive STFT segmentation strategies
+
 ENF extraction from audio recordings
+
 Correlation-based time-of-recording verification
+
 Experimental evaluation on the ENF-WHU dataset
+
 The proposed enhanced segmentation framework increases the number of ENF samples that can be estimated from a given recording by introducing adaptive anterior and posterior STFT segments. This produces longer and more distinctive ENF signals, improving forensic reliability, especially for short-duration recordings.
 
 Repository Contents
+
   The repository may include:
+  
     ENF estimation algorithms
+    
     MATLAB and/or Python implementations
+    
     Experimental scripts
+    
     Dataset organization tools
+    
     STFT segmentation frameworks
+    
     Evaluation and benchmarking scripts
+    
     Example audio and reference ENF data
+    
     Reproducibility materials for published experiments
+    
 
   Applications
+  
     The provided framework can be used for:
+    
     Academic ENF research
+    
     Digital audio forensic analysis
+    
     Media timestamp verification
+    
     Benchmarking ENF estimation techniques
+    
     Testing STFT parameter optimization strategies
+    
     Developing robust ENF extraction pipelines
+    
 
 Citation
 
@@ -68,5 +105,6 @@ Citation
   https://github.com/ghua-ac/ENF-WHU-Dataset/tree/master/ENF-WHU-Dataset
 
 Disclaimer
+
   This repository is intended for academic and research purposes only. The provided methods and datasets should be used responsibly and in accordance with applicable ethical and legal regulations regarding digital forensic investigations.
 
